@@ -1,0 +1,24 @@
+/* CSS to style text */
+.products__text {
+    position: absolute;
+    width: 1440px;
+    height: 545px;
+    left: 0px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    display: flex;
+    flex-direction: column;
+
+
+    color: #171717;
+}
+
+.products__text > li {
+    display: flex;
+    padding-bottom: 18px;
+}

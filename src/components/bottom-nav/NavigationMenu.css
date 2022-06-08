@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+/* CSS for the links (SOLUTIONS, PRODUCTS, AUTOMATION, EDUCATION, RESOURCES) */
+.nav__options {
+    font-family: 'Noto Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: uppercase;
+    
+    display: flex;
+    /* column-gap: 5% */
+    column-gap: 33px;
+ }
+
+ /* CSS for the text color change and the active tab border (when an option is clicked) */
+ .nav__options > li {
+    display: flex;
+    cursor: pointer;
+  }
+
+ .nav__options > li.active {
+    border-bottom: 3px solid;
+    color: #B81830;
+    padding-bottom: 24px;
+ }
+
+
+/* CSS for the Lincoln Electric logo */
+.nav__logo {
+    margin-top: 12.5px;
+    margin-bottom: 14.13px;
+    margin-left: 14px;
+    display: flex;
+}
+
+/* CSS for the Search text + icon */
+.nav__search {
+    position: absolute;
+    height: 20px;
+    /* left: 0%;
+    right: 0.19%; */
+    top: calc(50% - 20px/2);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    right: 26.5px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+
+    color: #171717;
+
+    /* 
+    In devtOOLs
+    position: sticky;
+    width: 85px;
+    height: 20px;
+    left: 1304px;
+    top: 35px;
+
+    font-family: 'Noto Sans',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: right; */
+}

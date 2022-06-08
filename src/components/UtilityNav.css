@@ -1,0 +1,27 @@
+/* CSS for the entire nav component */
+.utility-nav {
+    position: absolute;
+    width: 1442px;
+    height: 102px;
+    left: -2px;
+    top: 0px;
+}
+
+/* CSS for everything that encapsulates the black part of the menu
+(aka the top black banner) */
+.utility-nav__banner {
+    height: 34px;
+    background: #000000;
+}
+
+/* CSS for everything that encapsulates the white part of the menu */
+.utility-nav__menu {
+    position: absolute;
+    width: 1440px;
+    height: 67px;
+    left: 0px;
+    top: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(25, 25, 25, 0.197771);
+    display: flex;
+}

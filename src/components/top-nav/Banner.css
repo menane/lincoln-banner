@@ -1,0 +1,71 @@
+/* CSS to style to locale flag plus text */
+.banner__flag {
+    position: absolute;
+    display: inline-flex;
+    width: 48px;
+    height: 22px;
+    left: 15px;
+    top: 5px;
+}
+
+/* CSS to style to locale flag */
+.banner__flag img { 
+    width: 50%;
+    margin-right: 7px;
+}
+
+/* CSS to style the locale string + items in cart */
+.banner__text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.5px;
+    line-height: 22px;
+    /* identical to box height, or 163% */
+
+
+    color: #FFFFFF;
+}
+
+/* special CSS for items in cart font size */
+.banner__text--cart {
+    font-size: 14px;
+}
+
+/* CSS to style icons on the right side of banner */
+.banner__icons {
+    position: absolute;
+    width: 177px;
+    height: 34px;
+    left: 1263px;
+    top: 0px;
+
+    display: inline-flex;
+    column-gap: 10%;
+    align-items: center;
+}
+
+/* More specific CSS to control alignment of icon containers, to better match the wireframe */
+.banner__icons--container {
+    margin-top: 2%;
+}
+
+/* CSS to style shopping cart + total */
+.icon__cart {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: -1%;
+    width: 29.66%;
+    
+    background: #B81830;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+}
+/* resize the shopping cart img to match wireframe */
+.icon__cart img {
+    width: 16px;
+    height: 14.22px;
+}

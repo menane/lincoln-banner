@@ -1,0 +1,46 @@
+/* CSS for the white mobile default banner */
+.mobile-banner {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(49, 49, 49, 0.106015);
+    position: absolute;
+    width: 476px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+    align-items: center;
+}
+
+/* CSS for the hamburger menu icon */
+.menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin: 3px 2.16px 7px 6px;
+}
+
+/* CSS to invert the icons to black */
+.menu-icon--inverted {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+/* CSS for the right hand side icons - search, person, and cart */
+.mobile-banner__icons {
+    display: flex;
+    column-gap: 5%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+/* Special CSS sytling for items in cart + cart icon */
+.mobile-banner__cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+}
